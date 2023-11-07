@@ -1,0 +1,7 @@
+.sidebar_body{
+    width: 30vw;
+    height:80vh;
+    background-color: brown;
+    overflow: auto;
+
+}

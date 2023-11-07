@@ -1,0 +1,36 @@
+/* *{
+    margin: 0%;
+    padding:0%;
+}
+.header{
+    background-color: red;
+    height: 7vh;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(139, 139, 230);
+   
+}
+.add_cart{
+    width: 30%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_body{
+    background-color: grey;
+    height: 80vh;
+}
+.footer{
+    background-color: rgb(233, 148, 148);
+    height: 15vh;
+}
+ */

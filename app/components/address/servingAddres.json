@@ -1,0 +1,26 @@
+[{
+    "state":"Bihar",
+    "city":[
+        {   "name":"Patna",
+            "localities":["anisabad","kankarbagh","phulwarisharif","baileyRoad"]
+        },
+        {   "name":"Katihar",
+            "localities":["barbanna","amla tola","r k mission road"]
+        },
+        {   "name":"Chappra",
+            "localities":["rajendra prasad mohalla","tajpur","baniyapur"]
+        }
+    ]
+},
+{
+    "state":"Delhi",
+    "city":[
+        {   "name":"Saket",
+            "localities":["saidulajayb","pvr anupam","westend marg"]
+        },
+        {   "name":"Greater kailash",
+            "localities":["lajpat nagar"]
+        }
+    ]
+}
+]

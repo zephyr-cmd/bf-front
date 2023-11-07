@@ -1,0 +1,25 @@
+.card{
+    width: 14rem;
+}
+.card_image{
+    height: 10rem;
+    width:100%;
+    display: inline-block;
+    /* border: 3px solid blueviolet; */
+    /* overflow: hidden; */
+}
+.card_button{
+    font-size: 10px;
+    display: inline-block;
+    margin: 2px;
+}
+.card_title{
+    font-size: 20px;
+}
+.plus_minus_icon{
+    font-size: 10px;
+    display: inline-block;
+}
+.checkbox_option{
+    display: block;
+}

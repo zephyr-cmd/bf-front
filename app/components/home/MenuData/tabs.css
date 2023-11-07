@@ -1,0 +1,17 @@
+.menu_tabs {
+  font-size: 10px;
+  height: 100%;
+}
+.tab {
+  font-size: 20px;
+  /* border:1px solid red; */
+  display: flex; 
+  text-align: center;
+}
+.tabs {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  /* border:1px solid pink; */
+  height: 20%;
+}
