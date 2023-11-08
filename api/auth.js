@@ -1,10 +1,10 @@
 import axios from "axios";
-const BASE_URL = "http://192.168.43.119:7000"
-
+// const baseUrl = "http://192.168.43.119:7000"
+import { baseUrl } from "@/utils/commonUrl";
 export const loginApi = async (data) => {
     try {
         console.log("L-6, loginApi Data----------->", data);
-        const response = await axios(`${BASE_URL}/api/v1/modules/user/login`, {
+        const response = await axios(`${baseUrl}/api/v1/modules/user/login`, {
             method: 'POST',
             data: {
                 email: data.email,
