@@ -42,7 +42,7 @@ const Address = (props) => {
   }
   return (
     <>
-      <form>
+      <form class="bg-black shadow-md rounded px-8 pt-6 pb-8 mb-4">
 
         <div>
           <span>
@@ -101,7 +101,7 @@ const Address = (props) => {
             {formError.addressLine1 ? <p style={{ color: "red" }}>please enter address line 1</p> : ""}
             <br />
           </span>
-          <span>
+          <span class>
             Address Line 2: <input type="text" onChange={(e) => {
               setOrderFormData({ ...orderFormData, line2: e.target.value })
 
